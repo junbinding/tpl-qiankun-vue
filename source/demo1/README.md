@@ -1,19 +1,17 @@
-# demo1
+# Demo1 子项目
 
-## Project setup
+## 初始化
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+pnpm i
 ```
 
-### Compiles and minifies for production
+### 开发环境
 ```
-npm run build
+pnpm run dev
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 生产环境
+```
+pnpm run build
+```
+将打包后的文件移动到 nginx 对应的静态目录中
